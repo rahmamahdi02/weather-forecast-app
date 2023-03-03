@@ -32,7 +32,7 @@ const coord = {
             },
         timezone: -28800,
         id: 5809844,
-        name: "Seattle",
+        name: "Oakland",
         cod: 200
         }
     ]
