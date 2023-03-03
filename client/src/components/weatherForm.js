@@ -1,5 +1,7 @@
-const WeatherForm = (props) =>{
-
+const WeatherForm = ({ setCity, handleSubmit }) => {
+  function onChange(e) {
+    setCity(e.target.value);
+  }
 
     return (
         <div className="weather">
