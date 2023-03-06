@@ -28,6 +28,21 @@ const WeatherCard = ({ data }) => {
             {data.main.feels_like} <sup>o</sup>F
           </span>
         </p>
+
+        <p>
+          Pressure:{" "}
+          <span className="data">
+            {data.main.pressure} hPa
+          </span>
+        </p>
+
+        <p>
+          Humidity Levels:{" "}
+          <span className="data">
+            {data.main.humidity} %
+          </span>
+        </p>
+
       </div>
     </div>
   );

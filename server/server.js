@@ -14,6 +14,8 @@ app.get('/', (req, res) => {
     res.json({ message: 'Hello from My template ExpressJS' });
   });
 
+ const API_KEY = "586b5c16d3a880172379a042ac42cf5f"
+
 // creates an endpoint for the route /api/weather
 app.get("/weather", (req, res) => {
   const city = req.query.cityName;
